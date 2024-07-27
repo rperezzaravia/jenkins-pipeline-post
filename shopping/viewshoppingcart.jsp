@@ -1,5 +1,5 @@
 <HTML>
-<HEAD><TITLE>Pagina de compra1</TITLE></HEAD>
+<HEAD><TITLE>Shoppings</TITLE></HEAD>
 
 <BODY>
 <%@ page import="com.servlets.shoppingCartItem" %>
@@ -32,7 +32,7 @@
 
 <BR>
 
-<A HREF="./welcome.jsp">Volver a la pagina principal</A>
+<A HREF="./welcome.jsp">Return to the main page</A>
 <BR>
 </CENTER>
 <BR>

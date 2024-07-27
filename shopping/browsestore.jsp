@@ -8,9 +8,9 @@
 
 <table>
 <tr><td align="left"><%@ include file="pages/includes/DWRHeader1.jspf" %></td></tr>
-<tr><td><CENTER><b><h3>Bienvenido a los cursos de Apasoft Training</h3></b></CENTER></td>
+<tr><td><CENTER><b><h3>Welcome to  Apasoft Training Academy</h3></b></CENTER></td>
 <tr><td>&nbsp;</td><tr>
-<tr align="left"><td><b>Selecciona las categorias</b></A></td><tr>
+<tr align="left"><td><b>Select the categories</b></A></td><tr>
 </tr>
 </table>
 
@@ -21,13 +21,13 @@
 		<TD WIDTH="55%">Oracle</TD>
 	</TR>
 	<TR><TD ALIGN="right"><INPUT TYPE="checkbox" NAME="boxFurniture" VALUE="furniture"></TD>
-		<TD>Contenedores</TD>
+		<TD>Containers</TD>
 	</TR>
 	<TR><TD ALIGN="right"><INPUT TYPE="checkbox" NAME="boxPaper" VALUE="paper"></TD>
 		<TD>Java</TD>
 	</TR>
 	<TR><TD COLSPAN="2" ALIGN="center">
-		<INPUT TYPE="submit" NAME="btnSubmit" VALUE="Recuperar elementos"></TD>
+		<INPUT TYPE="submit" NAME="btnSubmit" VALUE="View courses"></TD>
 	</TR>
 
 </TABLE>
