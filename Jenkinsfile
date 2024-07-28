@@ -34,7 +34,7 @@ pipeline {
         stage('Checking the app') {
             steps {
                 echo 'Testing the web app'
-                sh 'wget http://localhost:9090'
+                sh 'wget http://localhost:9090/app1'
             }
         }       
     }
