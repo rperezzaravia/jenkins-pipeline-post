@@ -34,4 +34,15 @@ pipeline {
             }
         }
     }
+
+    post {
+        success {
+        // One or more steps need to be included within each condition's block.
+        echo 'the deployment has worked'
+       }
+       failure {
+        // One or more steps need to be included within each condition's block.
+        echo 'An error has ocurred'
+      }
+}
 }
