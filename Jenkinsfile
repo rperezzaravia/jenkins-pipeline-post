@@ -28,7 +28,7 @@ pipeline {
         stage('Copy the web application to the container directory') {
             steps {
                 echo 'Copying web application...'             
-                sh 'cp -r shoping/* /home/jenkins/tomcat-web'
+                sh 'cp -r shopping/* /home/jenkins/tomcat-web'
             }
         }
         stage('Checking the app') {
