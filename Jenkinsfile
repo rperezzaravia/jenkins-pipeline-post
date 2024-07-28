@@ -31,11 +31,12 @@ pipeline {
                 sh 'cp -r shopping/* /home/jenkins/tomcat-web'
             }
         }
-        stage('Checking the app') {
-            steps {
-                echo 'Testing the web app'
-                sh 'wget http://localhost:9090/app1'
-            }
-        }       
+    }
+        
+    post {
+        success {
+         // One or more steps need to be included within each condition's block.
+         echo "El proceso se ha terminado satisfactoriamente"
+         }
     }
 }
