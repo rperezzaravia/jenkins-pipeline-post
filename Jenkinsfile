@@ -38,13 +38,14 @@ pipeline {
     post {
         always {
             echo 'These steps are always executed'   
-            cleanWs()         
         }
       
         success {
         // One or more steps need to be included within each condition's block.
           echo 'the deployment has worked'
-                
+          archiveArtifacts allowEmptyArchive: true, artifacts: 'shopping/*.jsp', followSymlinks: false
+          cleanWs()         
+
        }
        failure {
         // One or more steps need to be included within each condition's block.
