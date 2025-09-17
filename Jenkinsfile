@@ -22,7 +22,7 @@ pipeline {
         stage('Create the Tomcat container') {
             steps {
             echo 'Creating the container...'
-            sh 'docker run -d --name apache1 -p 9000:80  -v /var/lib/docker/volumes/jenkins_home/_data/practicas/tomcat-web:/usr/local/tomcat/webapps tomcat:9.0'
+            sh 'docker run -dit --name tomcat1 -p 9090:8080  -v /var/lib/docker/volumes/jenkins_home/_data/practicas/tomcat-web:/usr/local/tomcat/webapps tomcat:9.0'
             }
         }
         stage('Copy the web application to the container directory') {
